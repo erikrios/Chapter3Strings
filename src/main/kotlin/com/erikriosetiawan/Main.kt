@@ -36,4 +36,15 @@ fun main() {
         |Involve me and I learn.
         |(Benjamin Franklin)
     """.trimMargin()
+
+    /**
+     * Elements of String
+     */
+
+    val str = "Hello, World!"
+    println(str[1])
+
+    for (c in str) {
+        println(c)
+    }
 }
