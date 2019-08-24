@@ -47,4 +47,19 @@ fun main() {
     for (c in str) {
         println(c)
     }
+
+    /**
+     * String Templates
+     */
+    val i = 10
+    val n = "i = $i"
+
+    val o = "abc"
+    val str4 = "$o length is ${o.length}"
+
+    val str5 = "\$foo"
+
+    val price = """
+        ${'$'}9.99
+    """
 }
