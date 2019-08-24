@@ -1,6 +1,10 @@
 package com.erikriosetiawan
 
 fun main() {
+
+    /**
+     * String equality
+     */
     var str1 = "Hello, World!"
     var str2 = "Hello," + " World!"
     println(str1 == str2)
@@ -18,4 +22,18 @@ fun main() {
     println(str1 == str2)
     println(str1 === str2)
     println(str1 === str3)
+
+    /**
+     * String literals
+     */
+    // Escaped string
+    val s = "Hello, World!\n"
+
+    // Raw string
+    val text = """
+        |Tell me and I forget.
+        |Teach me and I remember.
+        |Involve me and I learn.
+        |(Benjamin Franklin)
+    """.trimMargin()
 }
